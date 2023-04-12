@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .glass{
+    background: rgba(255, 255, 255, 0.55);
+    box-shadow: 0 4px 30px #4747470b;
+    backdrop-filter: blur(7.1px);
+    @apply border-4 border-gray-100 shrink rounded-2xl px-3 pt-6 pb-16 h-3/4 w-[30%] min-w-max
+  }
+}
+
+
+* > *{
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-image: url("./assets/Background.png");
+}
