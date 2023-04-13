@@ -48,9 +48,9 @@ const Recovery = () => {
             error: <b>Problem while generating OTP</b>
         });
 
-        sendPromise.then((code) => {
-            console.log(code);
-        })
+        // sendPromise.then((code) => {
+        //     console.log(code);
+        // })
     }
 
     return (
